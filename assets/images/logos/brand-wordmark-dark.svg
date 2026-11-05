@@ -1,9 +1,9 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 430 68" fill="none">
   <!-- Main Brand Title: SPACE COAST -->
-  <text x="2" y="34" font-family="'Roboto', 'Segoe UI', Arial, sans-serif" font-weight="900" font-size="31" letter-spacing="1.8" fill="#002B54">SPACE COAST</text>
-  <!-- Accent Divider Line with Spark Node -->
-  <rect x="2" y="42" width="48" height="3" rx="1.5" fill="#F58220"/>
-  <rect x="55" y="42" width="370" height="1.5" fill="#CBD5E1"/>
+  <text x="2" y="34" font-family="'Roboto', 'Segoe UI', Arial, sans-serif" font-weight="900" font-size="31" letter-spacing="1.8" fill="#1E293B">SPACE COAST</text>
+  <!-- Metallic Steel Divider Line -->
+  <rect x="2" y="42" width="48" height="3" rx="1.5" fill="#0284C7"/>
+  <rect x="55" y="42" width="370" height="1.5" fill="#94A3B8"/>
   <!-- Subtitle: WELDING & MONTAGE LLC -->
-  <text x="2" y="61" font-family="'Roboto', 'Segoe UI', Arial, sans-serif" font-weight="700" font-size="13.5" letter-spacing="3.4" fill="#F58220">WELDING &amp; MONTAGE LLC</text>
+  <text x="2" y="61" font-family="'Roboto', 'Segoe UI', Arial, sans-serif" font-weight="700" font-size="13.5" letter-spacing="3.4" fill="#0369A1">WELDING &amp; MONTAGE LLC</text>
 </svg>
