@@ -4,6 +4,6 @@
   <!-- Clean White/Silver Divider Line -->
   <rect x="2" y="42" width="48" height="3" rx="1.5" fill="#FFFFFF"/>
   <rect x="55" y="42" width="370" height="1.5" fill="rgba(255,255,255,0.35)"/>
-  <!-- Subtitle: WELDING & MOUNTING LLC -->
-  <text x="2" y="61" font-family="'Roboto', 'Segoe UI', Arial, sans-serif" font-weight="700" font-size="13.5" letter-spacing="3.2" fill="#E2E8F0">WELDING &amp; MOUNTING LLC</text>
+  <!-- Subtitle: WELDING & MONTAGE LLC -->
+  <text x="2" y="61" font-family="'Roboto', 'Segoe UI', Arial, sans-serif" font-weight="700" font-size="13.5" letter-spacing="3.4" fill="#E2E8F0">WELDING &amp; MONTAGE LLC</text>
 </svg>

@@ -174,7 +174,7 @@ document.addEventListener('DOMContentLoaded', () => {
     });
   }
 
-  // ===== 5. Contact Form Submission Handler =====
+  // ===== 5. Contact Form Submission Handler (Sends to scwelding.mounting19@gmail.com) =====
   const contactForm = document.getElementById('contactForm');
   if (contactForm) {
     contactForm.addEventListener('submit', (e) => {
@@ -190,6 +190,27 @@ document.addEventListener('DOMContentLoaded', () => {
         }
       });
       if (!valid) return;
+
+      const name = (document.getElementById('form-name')?.value || '').trim();
+      const org = (document.getElementById('form-org')?.value || '').trim();
+      const phone = (document.getElementById('form-phone')?.value || '').trim();
+      const email = (document.getElementById('form-email')?.value || '').trim();
+      const city = (document.getElementById('form-city')?.value || '').trim();
+      const subject = (document.getElementById('form-subject')?.value || 'Welding / Montage Inquiry').trim();
+      const message = (document.getElementById('form-message')?.value || '').trim();
+
+      const mailSubject = encodeURIComponent(`[Space Coast Welding & Montage LLC] ${subject} - ${name}`);
+      const mailBody = encodeURIComponent(
+        `Name: ${name}\n` +
+        `Company / Client: ${org}\n` +
+        `Phone / WhatsApp: ${phone}\n` +
+        `Email: ${email}\n` +
+        `City in Florida: ${city}\n` +
+        `Service / Class: ${subject}\n\n` +
+        `Details:\n${message}`
+      );
+
+      window.location.href = `mailto:scwelding.mounting19@gmail.com?subject=${mailSubject}&body=${mailBody}`;
 
       const successEl = document.getElementById('form-success');
       if (successEl) {

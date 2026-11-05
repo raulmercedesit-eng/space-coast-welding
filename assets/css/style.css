@@ -1031,8 +1031,8 @@ a {
 }
 .scope-matrix-cols {
   display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 28px;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 24px;
 }
 .scope-col h4 {
   font-size: 13.5px;
@@ -1053,13 +1053,16 @@ a {
   background: var(--accent-color);
   border-radius: 2px;
 }
-.scope-col:last-child h4::before {
+.scope-col:nth-child(2) h4::before {
   background: var(--secondary-blue);
+}
+.scope-col:nth-child(3) h4::before {
+  background: var(--primary-color);
 }
 .scope-checklist {
   list-style: none;
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr;
   gap: 8px 14px;
 }
 .scope-checklist li {
@@ -1076,8 +1079,11 @@ a {
   color: var(--accent-color);
   flex-shrink: 0;
 }
-.scope-col:last-child .scope-checklist li svg {
+.scope-col:nth-child(2) .scope-checklist li svg {
   color: var(--secondary-blue);
+}
+.scope-col:nth-child(3) .scope-checklist li svg {
+  color: var(--primary-color);
 }
 
 /* ===== 03. TECHNICAL CAPABILITIES SPLIT ===== */
