@@ -1,0 +1,850 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Space Coast Welding & Mounting LLC — Rockledge, FL. Certified Pipe Welding (TIG, Stick, MIG), Structural Steel Fabrication, Industrial Skid & Equipment Mounting, Aerospace Contractor Support, and Custom Residential/Commercial Welding on Florida's Space Coast. English & Español." />
+  <title>Space Coast Welding &amp; Mounting LLC | Precision Welding, Structural Steel &amp; Industrial Mounting in Rockledge, FL</title>
+
+  <!-- Open Graph / Social -->
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Space Coast Welding & Mounting LLC | Rockledge, FL (Space Coast)" />
+  <meta property="og:description" content="Precision Pipe Welding (Stick, TIG, MIG), Structural Welding, Industrial Mounting, Skids & Custom Fabrication serving Private Clients, Commercial Contractors & Aerospace Operations in Florida. English & Español." />
+  <meta property="og:image" content="assets/images/logos/logo-emblem.png" />
+
+  <link rel="icon" type="image/png" href="assets/images/logos/favicon.png" />
+  <link rel="apple-touch-icon" href="assets/images/logos/favicon.png" />
+
+  <!-- Flag Icons & Google Fonts (Roboto) -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/flag-icons@7.2.3/css/flag-icons.min.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="assets/css/style.css?v=4" />
+  <link rel="stylesheet" href="assets/css/mobile.css?v=4" />
+
+  <!-- Schema.org Structured Data (JSON-LD) -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": ["ProfessionalService", "HomeAndConstructionBusiness"],
+    "name": "Space Coast Welding & Mounting LLC",
+    "alternateName": ["Space Coast Welding & Montage LLC", "Space Coast Welding Rockledge FL"],
+    "logo": "assets/images/logos/logo-emblem.png",
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Rockledge",
+      "addressRegion": "FL",
+      "addressCountry": "US"
+    },
+    "areaServed": [
+      "Rockledge, FL",
+      "Melbourne, FL",
+      "Cape Canaveral, FL",
+      "Merritt Island, FL",
+      "Titusville, FL",
+      "Cocoa, FL",
+      "Brevard County, FL",
+      "Orlando, FL"
+    ],
+    "availableLanguage": ["en", "es"],
+    "knowsAbout": [
+      "Pipe Welding (GTAW / TIG, SMAW / Stick, GMAW / MIG)",
+      "Stainless Steel Welding (304L / 316L / High-Purity & Cryogenic)",
+      "Carbon Steel Welding",
+      "Structural Steel Welding & Fabrication (AWS D1.1 / D1.6)",
+      "Industrial Equipment Mounting & Skid Installation",
+      "Pipe Support Installation & Process Piping (ASME B31.3)",
+      "Aerospace Ground Support Equipment (GSE) Welding & Mounting",
+      "On-Site Mobile Welding & Heavy Equipment Repair",
+      "Custom Welding Classes (Stick, TIG, MIG)"
+    ]
+  }
+  </script>
+</head>
+<body>
+
+  <!-- ===== NAVBAR ===== -->
+  <header class="navbar" id="navbar">
+    <div class="container nav-container">
+      <a href="#" class="brand" onclick="window.scrollTo({top: 0, behavior: 'smooth'}); return false;">
+        <img src="assets/images/logos/logo-emblem.png?v=4" alt="Space Coast Welding & Mounting LLC Emblem" class="logo-icon" />
+        <img src="assets/images/logos/brand-wordmark-dark.svg?v=4" alt="Space Coast Welding & Mounting LLC" class="logo-name" />
+      </a>
+
+      <!-- Mobile Hamburger Button -->
+      <button class="mobile-menu-btn" id="mobileMenuBtn" aria-label="Toggle Menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+
+      <nav class="nav-right" id="navRight">
+        <ul class="nav-menu">
+          <li><a href="#" onclick="window.scrollTo({top: 0, behavior: 'smooth'}); return false;" data-i18n="nav_home">Home</a></li>
+
+          <!-- WELDING & MOUNTING DROPDOWN -->
+          <li class="nav-item-dropdown">
+            <a href="#servicios">
+              <span data-i18n="nav_services">Welding &amp; Mounting</span>
+              <svg class="nav-chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor"><polyline points="6 9 12 15 18 9"></polyline></svg>
+            </a>
+            <ul class="nav-dropdown-menu">
+              <li><a href="#servicios" data-open-tab="tab-pipe" data-i18n="nav_sub_pipe">Pipe Welding (TIG / Stick / MIG)</a></li>
+              <li><a href="#servicios" data-open-tab="tab-struct" data-i18n="nav_sub_structural">Structural Welding &amp; Steel Fabrication</a></li>
+              <li><a href="#servicios" data-open-tab="tab-mount" data-i18n="nav_sub_mounting">Industrial Mounting &amp; Skid Installation</a></li>
+              <li><a href="#servicios" data-open-tab="tab-custom" data-i18n="nav_sub_custom">Custom Projects, Repairs &amp; Mobile Welding</a></li>
+            </ul>
+          </li>
+
+          <!-- SECTORS & SOLUTIONS DROPDOWN -->
+          <li class="nav-item-dropdown">
+            <a href="#sectores">
+              <span data-i18n="nav_sectors">Sectors &amp; Solutions</span>
+              <svg class="nav-chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor"><polyline points="6 9 12 15 18 9"></polyline></svg>
+            </a>
+            <ul class="nav-dropdown-menu">
+              <li><a href="#sectores" data-i18n="nav_sub_aero">Aerospace &amp; Launch Ground Support</a></li>
+              <li><a href="#sectores" data-i18n="nav_sub_ind">Industrial Process Piping &amp; Skids</a></li>
+              <li><a href="#sectores" data-i18n="nav_sub_comm">Commercial Steel &amp; Equipment Repair</a></li>
+              <li><a href="#sectores" data-i18n="nav_sub_res">Private Clients, Residential &amp; Classes</a></li>
+            </ul>
+          </li>
+
+          <li><a href="#capacidades" data-i18n="nav_capabilities">Capabilities</a></li>
+          <li><a href="#estandares" data-i18n="nav_standards">Standards</a></li>
+          <li><a href="#contacto" class="btn-nav" data-i18n="nav_contact">Request a Quote</a></li>
+        </ul>
+
+        <!-- Instant 1-Click Bilingual Switcher (English & Español for Florida) -->
+        <div class="lang-selector" aria-label="Language Selector">
+          <div class="lang-quick-pills">
+            <button type="button" class="lang-pill-btn active" data-set-lang="en" title="English">
+              <span class="fi fi-us fis"></span>
+              <span>EN</span>
+            </button>
+            <button type="button" class="lang-pill-btn" data-set-lang="es" title="Español — Hablamos Español">
+              <span class="fi fi-es fis"></span>
+              <span>ES · Español</span>
+            </button>
+          </div>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <!-- ===== HERO ===== -->
+    <section class="hero">
+      <div class="hero-bg">
+        <div class="hero-overlay"></div>
+      </div>
+
+      <div class="container hero-content text-center">
+        <div class="hero-eyebrow">
+          <span class="pulse-dot"></span>
+          <span data-i18n="hero_eyebrow">ROCKLEDGE, FL · FLORIDA'S SPACE COAST · INDUSTRIAL, COMMERCIAL &amp; RESIDENTIAL</span>
+        </div>
+
+        <h1 data-i18n="hero_title">PRECISION WELDING, STRUCTURAL FABRICATION &amp; INDUSTRIAL MOUNTING ON FLORIDA'S SPACE COAST.</h1>
+
+        <p class="hero-sub" data-i18n="hero_sub">Space Coast Welding &amp; Mounting LLC integrates aerospace-grade metallurgical precision with dependable field execution — serving private homeowners, commercial contractors, and Space Coast aerospace &amp; industrial facilities in English and Spanish.</p>
+
+        <div class="hero-buttons">
+          <a href="#servicios" class="btn btn-primary" data-i18n="hero_cta_primary">Explore Welding &amp; Mounting Services</a>
+          <a href="#contacto" class="btn btn-secondary-hero" data-i18n="hero_cta_secondary">Request Free Estimate (EN / ES)</a>
+        </div>
+      </div>
+
+      <!-- Executive 4-Pillar Trust Bar -->
+      <div class="hero-metrics-grid">
+        <div class="hero-metric-card">
+          <span class="hero-metric-title" data-i18n="metric1_title">PIPE &amp; SANITARY WELDING</span>
+          <span class="hero-metric-sub" data-i18n="metric1_sub">Certified GTAW (TIG), SMAW (Stick) &amp; GMAW (MIG) in Stainless &amp; Carbon Steel.</span>
+        </div>
+        <div class="hero-metric-card">
+          <span class="hero-metric-title" data-i18n="metric2_title">INDUSTRIAL MOUNTING &amp; SKIDS</span>
+          <span class="hero-metric-sub" data-i18n="metric2_sub">Process Skids, Equipment Mounting, Pipe Supports &amp; Steel Structures.</span>
+        </div>
+        <div class="hero-metric-card">
+          <span class="hero-metric-title" data-i18n="metric3_title">SPACE COAST AEROSPACE RIGOR</span>
+          <span class="hero-metric-sub" data-i18n="metric3_sub">Hands-on experience in high-spec aerospace contractor environments (NASA / SpaceX corridor).</span>
+        </div>
+        <div class="hero-metric-card">
+          <span class="hero-metric-title" data-i18n="metric4_title">BILINGUAL SERVICE (EN / ES)</span>
+          <span class="hero-metric-sub" data-i18n="metric4_sub">Direct communication in English &amp; Español for private, commercial &amp; industrial clients.</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== 01. SPECIALIZED WELDING & MOUNTING (INTERACTIVE TECHNICAL TABS) ===== -->
+    <section id="servicios" class="section bg-dark">
+      <div class="container">
+        <div class="section-heading text-center">
+          <h2 class="text-white" data-i18n="sec1_title">SPECIALIZED WELDING &amp; INDUSTRIAL MOUNTING SERVICES</h2>
+          <p class="section-lead text-white" data-i18n="sec1_lead">Comprehensive welding engineering, custom metal fabrication, and heavy industrial mounting tailored to residential, commercial, and high-specification aerospace &amp; industrial operations across Brevard County and Florida.</p>
+        </div>
+
+        <!-- Tabs Container -->
+        <div class="ifpd-tabs-container">
+          <!-- Mobile Scroll Hint & Dots Header -->
+          <div class="ifpd-mobile-nav-bar" aria-hidden="true">
+            <div class="ifpd-mobile-nav-hint">
+              <span data-i18n="ifpd_tab_hint">Swipe to explore welding &amp; mounting divisions</span>
+            </div>
+            <div class="ifpd-mobile-nav-dots">
+              <button type="button" class="ifpd-dot active" data-tab-target="tab-pipe" aria-label="Pipe Welding"></button>
+              <button type="button" class="ifpd-dot" data-tab-target="tab-struct" aria-label="Structural Welding"></button>
+              <button type="button" class="ifpd-dot" data-tab-target="tab-mount" aria-label="Industrial Mounting"></button>
+              <button type="button" class="ifpd-dot" data-tab-target="tab-custom" aria-label="Custom & Mobile"></button>
+            </div>
+          </div>
+
+          <div class="ifpd-tabs-nav-wrapper">
+            <div class="ifpd-tabs-nav" id="ifpdTabsNav" role="tablist" aria-label="Welding & Mounting Divisions">
+              <button type="button" class="ifpd-tab-btn active" role="tab" aria-selected="true" data-tab="tab-pipe" id="btn-tab-pipe">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="9"></circle><circle cx="12" cy="12" r="4"></circle><line x1="12" y1="3" x2="12" y2="5"></line><line x1="12" y1="19" x2="12" y2="21"></line></svg>
+                <span data-i18n="tab_pipe_title">Pipe Welding (TIG / Stick / MIG)</span>
+              </button>
+
+              <button type="button" class="ifpd-tab-btn" role="tab" aria-selected="false" data-tab="tab-struct" id="btn-tab-struct">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 21h18"></path><path d="M5 21V5a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2v16"></path><path d="M9 21v-8h6v8"></path><line x1="9" y1="7" x2="15" y2="7"></line><line x1="9" y1="10" x2="15" y2="10"></line></svg>
+                <span data-i18n="tab_struct_title">Structural &amp; Steel Fabrication</span>
+              </button>
+
+              <button type="button" class="ifpd-tab-btn" role="tab" aria-selected="false" data-tab="tab-mount" id="btn-tab-mount">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="6" width="20" height="12" rx="2"></rect><path d="M6 18v3"></path><path d="M18 18v3"></path><path d="M6 6V3"></path><path d="M18 6V3"></path><line x1="6" y1="12" x2="18" y2="12"></line></svg>
+                <span data-i18n="tab_mount_title">Industrial Mounting &amp; Skids</span>
+              </button>
+
+              <button type="button" class="ifpd-tab-btn" role="tab" aria-selected="false" data-tab="tab-custom" id="btn-tab-custom">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"></polygon></svg>
+                <span data-i18n="tab_custom_title">Custom, Repair &amp; Mobile On-Site</span>
+              </button>
+            </div>
+          </div>
+
+          <!-- Tabs Content Panels -->
+          <div class="ifpd-tabs-content">
+            <!-- PANEL 1: PIPE WELDING -->
+            <div class="ifpd-tab-panel active" id="tab-pipe" role="tabpanel" aria-labelledby="btn-tab-pipe">
+              <div class="ifpd-panel-split">
+                <div class="ifpd-panel-info">
+                  <span class="ifpd-visual-badge" data-i18n="tab1_badge">ASME B31.3 · API 1104 · AWS D10 · STAINLESS &amp; CARBON STEEL</span>
+                  <h3 data-i18n="tab1_h3">High-Purity Stainless &amp; Carbon Steel Pipe Welding (GTAW / SMAW / GMAW)</h3>
+                  <p class="ifpd-lead-text" data-i18n="tab1_lead">Precision manual and purged TIG (GTAW), Stick (SMAW), and MIG (GMAW) pipe welding engineered for high-pressure industrial lines, sanitary food/aerospace manifolds, and heavy-schedule carbon steel networks.</p>
+                  <ul class="ifpd-features-list">
+                    <li>
+                      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                      <span data-i18n="tab1_feat1">Full-penetration argon-purged Stainless Steel TIG welding (304L, 316L, exotic alloys) with zero oxidation.</span>
+                    </li>
+                    <li>
+                      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                      <span data-i18n="tab1_feat2">Heavy-wall Carbon Steel pipe welding (SMAW / GTAW root + fill) for high-pressure steam, hydraulic, and process lines.</span>
+                    </li>
+                    <li>
+                      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                      <span data-i18n="tab1_feat3">Process piping fabrication, spool assembly, Tie-ins, and X-ray / NDT-ready weld execution.</span>
+                    </li>
+                  </ul>
+                  <div class="ifpd-deliverables-box">
+                    <span class="ifpd-deliv-header">
+                      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2L2 7l10 5 10-5-10-5z"></path><path d="M2 17l10 5 10-5"></path><path d="M2 12l10 5 10-5"></path></svg>
+                      <span data-i18n="ifpd_deliv_header">Technical Scope &amp; Metallurgy:</span>
+                    </span>
+                    <ul class="ifpd-deliv-pills">
+                      <li data-i18n="tab1_deliv1">Stainless Steel (304L / 316L) Purged TIG</li>
+                      <li data-i18n="tab1_deliv2">Carbon Steel Schedule 40 / 80 / 160</li>
+                      <li data-i18n="tab1_deliv3">Industrial &amp; Process Piping Spools</li>
+                    </ul>
+                  </div>
+                  <div class="ifpd-action-row">
+                    <a href="#contacto" class="btn-tab-action" data-subject-index="1">
+                      <span data-i18n="tab_contact_action">Request Quote for this Service</span>
+                      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="9 18 15 12 9 6"></polyline></svg>
+                    </a>
+                  </div>
+                </div>
+                <div class="ifpd-panel-visual">
+                  <div class="ifpd-img-wrap">
+                    <img src="assets/images/servicios/tab-pipe-tig.jpg" alt="GTAW TIG Stainless Steel Pipe Welding in Rockledge FL" loading="eager" width="600" height="335" />
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- PANEL 2: STRUCTURAL WELDING -->
+            <div class="ifpd-tab-panel" id="tab-struct" role="tabpanel" aria-labelledby="btn-tab-struct">
+              <div class="ifpd-panel-split">
+                <div class="ifpd-panel-info">
+                  <span class="ifpd-visual-badge" data-i18n="tab2_badge">AWS D1.1 · AWS D1.6 · AISC · HEAVY &amp; ARCHITECTURAL STEEL</span>
+                  <h3 data-i18n="tab2_h3">Structural Steel Welding &amp; Custom Steel Fabrication</h3>
+                  <p class="ifpd-lead-text" data-i18n="tab2_lead">Code-compliant structural welding and turnkey steel fabrication for commercial buildings, industrial facilities, aerospace ground support frames, and residential reinforcements.</p>
+                  <ul class="ifpd-features-list">
+                    <li>
+                      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                      <span data-i18n="tab2_feat1">Fabrication and erection of structural I-beams, columns, heavy baseplates, anchor bolt assemblies, and trusses.</span>
+                    </li>
+                    <li>
+                      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                      <span data-i18n="tab2_feat2">Mezzanines, access platforms, industrial catwalks, safety ladders, and OSHA-compliant structural handrails.</span>
+                    </li>
+                    <li>
+                      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                      <span data-i18n="tab2_feat3">Structural modifications, hurricane-rated steel reinforcements, and custom architectural metalwork.</span>
+                    </li>
+                  </ul>
+                  <div class="ifpd-deliverables-box">
+                    <span class="ifpd-deliv-header">
+                      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2L2 7l10 5 10-5-10-5z"></path><path d="M2 17l10 5 10-5"></path><path d="M2 12l10 5 10-5"></path></svg>
+                      <span data-i18n="ifpd_deliv_header">Technical Scope &amp; Metallurgy:</span>
+                    </span>
+                    <ul class="ifpd-deliv-pills">
+                      <li data-i18n="tab2_deliv1">AWS D1.1 / D1.6 Structural Steel</li>
+                      <li data-i18n="tab2_deliv2">Columns, Baseplates &amp; Mezzanines</li>
+                      <li data-i18n="tab2_deliv3">Shop Fabrication &amp; Field Erection</li>
+                    </ul>
+                  </div>
+                  <div class="ifpd-action-row">
+                    <a href="#contacto" class="btn-tab-action" data-subject-index="2">
+                      <span data-i18n="tab_contact_action">Request Quote for this Service</span>
+                      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="9 18 15 12 9 6"></polyline></svg>
+                    </a>
+                  </div>
+                </div>
+                <div class="ifpd-panel-visual">
+                  <div class="ifpd-img-wrap">
+                    <img src="assets/images/servicios/tab-structural.jpg" alt="Structural Steel Welding and Fabrication in Florida" loading="lazy" width="600" height="335" />
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- PANEL 3: INDUSTRIAL MOUNTING & SKIDS -->
+            <div class="ifpd-tab-panel" id="tab-mount" role="tabpanel" aria-labelledby="btn-tab-mount">
+              <div class="ifpd-panel-split">
+                <div class="ifpd-panel-info">
+                  <span class="ifpd-visual-badge" data-i18n="tab3_badge">EQUIPMENT MOUNTING · SKID INSTALLATION · PIPE SUPPORTS</span>
+                  <h3 data-i18n="tab3_h3">Industrial Equipment Mounting, Skid Installation &amp; Pipe Supports</h3>
+                  <p class="ifpd-lead-text" data-i18n="tab3_lead">End-to-end mechanical and structural mounting solutions for industrial plants, aerospace support facilities, and commercial operations throughout Florida.</p>
+                  <ul class="ifpd-features-list">
+                    <li>
+                      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                      <span data-i18n="tab3_feat1">Precision Skid Installation, leveling, anchoring, and interconnect piping for modular industrial process systems.</span>
+                    </li>
+                    <li>
+                      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                      <span data-i18n="tab3_feat2">Engineered Pipe Support Installation, structural pipe racks, hangers, guides, and vibration-isolated mounts.</span>
+                    </li>
+                    <li>
+                      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                      <span data-i18n="tab3_feat3">Heavy Equipment Mounting, pressure vessels, tanks, steel structure assembly, and plant modification/retrofit.</span>
+                    </li>
+                  </ul>
+                  <div class="ifpd-deliverables-box">
+                    <span class="ifpd-deliv-header">
+                      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2L2 7l10 5 10-5-10-5z"></path><path d="M2 17l10 5 10-5"></path><path d="M2 12l10 5 10-5"></path></svg>
+                      <span data-i18n="ifpd_deliv_header">Technical Scope &amp; Metallurgy:</span>
+                    </span>
+                    <ul class="ifpd-deliv-pills">
+                      <li data-i18n="tab3_deliv1">Modular Skid &amp; Tank Mounting</li>
+                      <li data-i18n="tab3_deliv2">Engineered Pipe Support Systems</li>
+                      <li data-i18n="tab3_deliv3">On-Site Rigging, Alignment &amp; Bolting</li>
+                    </ul>
+                  </div>
+                  <div class="ifpd-action-row">
+                    <a href="#contacto" class="btn-tab-action" data-subject-index="3">
+                      <span data-i18n="tab_contact_action">Request Quote for this Service</span>
+                      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="9 18 15 12 9 6"></polyline></svg>
+                    </a>
+                  </div>
+                </div>
+                <div class="ifpd-panel-visual">
+                  <div class="ifpd-img-wrap">
+                    <img src="assets/images/servicios/tab-mounting.jpg" alt="Industrial Skid Installation and Equipment Mounting Services" loading="lazy" width="600" height="335" />
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- PANEL 4: CUSTOM, REPAIR & MOBILE ON-SITE -->
+            <div class="ifpd-tab-panel" id="tab-custom" role="tabpanel" aria-labelledby="btn-tab-custom">
+              <div class="ifpd-panel-split">
+                <div class="ifpd-panel-info">
+                  <span class="ifpd-visual-badge" data-i18n="tab4_badge">ON-SITE MOBILE WELDING · EQUIPMENT REPAIR · PRIVATE &amp; COMMERCIAL</span>
+                  <h3 data-i18n="tab4_h3">Custom Welding Projects, Equipment Repair &amp; Mobile On-Site Service</h3>
+                  <p class="ifpd-lead-text" data-i18n="tab4_lead">Fast, reliable shop and mobile on-site welding for private homeowners, local businesses, marine/trailer owners, and construction fleets in Rockledge and Brevard County.</p>
+                  <ul class="ifpd-features-list">
+                    <li>
+                      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                      <span data-i18n="tab4_feat1">Heavy Equipment &amp; Machinery Repair: excavator buckets, trailers, chassis frames, agricultural &amp; construction gear.</span>
+                    </li>
+                    <li>
+                      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                      <span data-i18n="tab4_feat2">Custom Residential &amp; Commercial Projects: ornamental gates, fences, stainless/aluminum railings, stairs, and brackets.</span>
+                    </li>
+                    <li>
+                      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                      <span data-i18n="tab4_feat3">On-Site Mobile Welding &amp; Mounting: fully equipped field service bringing industrial-grade quality directly to your property.</span>
+                    </li>
+                  </ul>
+                  <div class="ifpd-deliverables-box">
+                    <span class="ifpd-deliv-header">
+                      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2L2 7l10 5 10-5-10-5z"></path><path d="M2 17l10 5 10-5"></path><path d="M2 12l10 5 10-5"></path></svg>
+                      <span data-i18n="ifpd_deliv_header">Technical Scope &amp; Metallurgy:</span>
+                    </span>
+                    <ul class="ifpd-deliv-pills">
+                      <li data-i18n="tab4_deliv1">24/7 Capable Mobile On-Site Rig</li>
+                      <li data-i18n="tab4_deliv2">Heavy Machinery &amp; Trailer Repair</li>
+                      <li data-i18n="tab4_deliv3">Custom Gates, Railings &amp; Aluminum</li>
+                    </ul>
+                  </div>
+                  <div class="ifpd-action-row">
+                    <a href="#contacto" class="btn-tab-action" data-subject-index="5">
+                      <span data-i18n="tab_contact_action">Request Quote for this Service</span>
+                      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="9 18 15 12 9 6"></polyline></svg>
+                    </a>
+                  </div>
+                </div>
+                <div class="ifpd-panel-visual">
+                  <div class="ifpd-img-wrap">
+                    <img src="assets/images/servicios/tab-custom-mobile.jpg" alt="Custom Metal Fabrication and Mobile Welding in Florida" loading="lazy" width="600" height="335" />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Master Catalog Scroll CTA -->
+        <div class="ifpd-master-cta-wrap text-center">
+          <a href="#catalogo-completo" class="btn-ifpd-master">
+            <span data-i18n="sec1_master_btn">View Complete 14-Point Welding &amp; Mounting Scope Below</span>
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><line x1="12" y1="5" x2="12" y2="19"></line><polyline points="19 12 12 19 5 12"></polyline></svg>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== 02. SECTORS & APPLICATIONS (4-COLUMN EXECUTIVE CARDS + 14-POINT CATALOG) ===== -->
+    <section id="sectores" class="section">
+      <div class="container">
+        <div class="section-heading text-center">
+          <h2 data-i18n="sec2_title">SOLUTIONS FOR PRIVATE CLIENTS, INDUSTRY &amp; SPACE COAST AEROSPACE</h2>
+          <p class="section-lead" data-i18n="sec2_lead">Whether you are a homeowner in Rockledge needing a custom repair in Spanish or English, a commercial general contractor, or an aerospace supplier supporting NASA &amp; SpaceX operations, we deliver the exact same uncompromising precision.</p>
+        </div>
+
+        <div class="airport-card-grid">
+          <!-- CARD 1: AEROSPACE & LAUNCH INFRASTRUCTURE -->
+          <div class="airport-card">
+            <div class="airport-card-visual">
+              <img src="assets/images/sectores/card-aerospace.jpg" alt="Space Coast Aerospace Welding and Ground Support Infrastructure" loading="lazy" />
+              <div class="airport-card-overlay"></div>
+              <span class="airport-card-badge" data-i18n="sec2_card1_badge">AWS D17.1 · NASA-STD MINDSET · SPACE COAST</span>
+            </div>
+            <div class="airport-card-body">
+              <h4 data-i18n="box1_title">Aerospace &amp; Launch Infrastructure Support</h4>
+              <p data-i18n="box1_text">Backed by direct hands-on experience performing welding and mounting services for leading Space Coast aerospace operations. Precision stainless TIG, GSE structures, and launch support hardware.</p>
+              <div class="airport-card-pills" data-i18n="sec2_card1_pills">
+                <span>Aerospace TIG</span><span>GSE Structures</span><span>High-Purity Stainless</span>
+              </div>
+              <a href="#contacto" class="airport-card-btn" data-subject-index="4">
+                <span data-i18n="btn_view_full_spec">Request Estimate</span>
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="9 18 15 12 9 6"></polyline></svg>
+              </a>
+            </div>
+          </div>
+
+          <!-- CARD 2: INDUSTRIAL PROCESS PIPING & SKIDS -->
+          <div class="airport-card">
+            <div class="airport-card-visual">
+              <img src="assets/images/sectores/card-industrial.jpg" alt="Industrial Process Piping and Skid Mounting" loading="lazy" />
+              <div class="airport-card-overlay"></div>
+              <span class="airport-card-badge" data-i18n="sec2_card2_badge">ASME SEC IX · B31.3 · INDUSTRIAL PLANTS</span>
+            </div>
+            <div class="airport-card-body">
+              <h4 data-i18n="box2_title">Industrial Process Piping &amp; Skid Systems</h4>
+              <p data-i18n="box2_text">Turnkey fabrication and field installation of process piping networks, stainless and carbon steel manifolds, modular skids, elevated pipe supports, and heavy plant equipment.</p>
+              <div class="airport-card-pills" data-i18n="sec2_card2_pills">
+                <span>Skid Installation</span><span>Pipe Supports</span><span>Process Piping</span>
+              </div>
+              <a href="#contacto" class="airport-card-btn" data-subject-index="3">
+                <span data-i18n="btn_view_full_spec">Request Estimate</span>
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="9 18 15 12 9 6"></polyline></svg>
+              </a>
+            </div>
+          </div>
+
+          <!-- CARD 3: COMMERCIAL STEEL & EQUIPMENT REPAIR -->
+          <div class="airport-card">
+            <div class="airport-card-visual">
+              <img src="assets/images/sectores/card-commercial.jpg" alt="Commercial Structural Steel and Heavy Equipment Welding" loading="lazy" />
+              <div class="airport-card-overlay"></div>
+              <span class="airport-card-badge" data-i18n="sec2_card3_badge">AWS D1.1 · COMMERCIAL · HEAVY REPAIR</span>
+            </div>
+            <div class="airport-card-body">
+              <h4 data-i18n="box3_title">Commercial Steel &amp; Equipment Repair</h4>
+              <p data-i18n="box3_text">Structural steel erection, columns, staircases, safety railings, and heavy machinery/trailer welding repairs for commercial contractors and local businesses across Florida.</p>
+              <div class="airport-card-pills" data-i18n="sec2_card3_pills">
+                <span>Structural Steel</span><span>Equipment Repair</span><span>On-Site Welding</span>
+              </div>
+              <a href="#contacto" class="airport-card-btn" data-subject-index="2">
+                <span data-i18n="btn_view_full_spec">Request Estimate</span>
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="9 18 15 12 9 6"></polyline></svg>
+              </a>
+            </div>
+          </div>
+
+          <!-- CARD 4: PRIVATE CLIENTS, RESIDENTIAL & WELDING CLASSES -->
+          <div class="airport-card">
+            <div class="airport-card-visual">
+              <img src="assets/images/sectores/card-residential.jpg" alt="Private Clients, Residential Welding and Custom Classes in Rockledge FL" loading="lazy" />
+              <div class="airport-card-overlay"></div>
+              <span class="airport-card-badge" data-i18n="sec2_card4_badge">PRIVATE CLIENTS · HABLAMOS ESPAÑOL · CLASSES</span>
+            </div>
+            <div class="airport-card-body">
+              <h4 data-i18n="box4_title">Private Clients, Residential &amp; Welding Classes</h4>
+              <p data-i18n="box4_text">Personalized service in Spanish and English for private clients: custom gates, handrails, home structural work, aluminum/stainless repairs, plus hands-on Custom Welding Classes (TIG, MIG, Stick).</p>
+              <div class="airport-card-pills" data-i18n="sec2_card4_pills">
+                <span>Hablamos Español</span><span>Custom Projects</span><span>Welding Classes</span>
+              </div>
+              <a href="#contacto" class="airport-card-btn" data-subject-index="6">
+                <span data-i18n="btn_view_full_spec">Request Estimate</span>
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="9 18 15 12 9 6"></polyline></svg>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Complete 14-Point Service Scope Matrix (All Flyer Services) -->
+        <div class="scope-matrix-box" id="catalogo-completo">
+          <div class="scope-matrix-header">
+            <h3 data-i18n="matrix_title">COMPLETE SERVICE CATALOG — WELDING &amp; INDUSTRIAL MOUNTING</h3>
+            <span data-i18n="matrix_badge">INDUSTRIAL • COMMERCIAL • RESIDENTIAL</span>
+          </div>
+          <div class="scope-matrix-cols">
+            <!-- Col 1: Professional Welding Services -->
+            <div class="scope-col">
+              <h4 data-i18n="matrix_col1_title">Professional Welding Services</h4>
+              <ul class="scope-checklist">
+                <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg><span data-i18n="matrix_w1">Pipe Welding (Stick, TIG, MIG)</span></li>
+                <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg><span data-i18n="matrix_w2">Structural Welding</span></li>
+                <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg><span data-i18n="matrix_w3">Steel Fabrication</span></li>
+                <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg><span data-i18n="matrix_w4">Equipment Repair</span></li>
+                <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg><span data-i18n="matrix_w5">Custom Welding Projects</span></li>
+                <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg><span data-i18n="matrix_w6">Stainless Steel Welding</span></li>
+                <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg><span data-i18n="matrix_w7">Carbon Steel Welding</span></li>
+              </ul>
+            </div>
+
+            <!-- Col 2: Industrial Mounting Services -->
+            <div class="scope-col">
+              <h4 data-i18n="matrix_col2_title">Industrial Mounting Services</h4>
+              <ul class="scope-checklist">
+                <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg><span data-i18n="matrix_m1">Equipment Mounting</span></li>
+                <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg><span data-i18n="matrix_m2">Pipe Support Installation</span></li>
+                <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg><span data-i18n="matrix_m3">Steel Structure Mounting</span></li>
+                <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg><span data-i18n="matrix_m4">Skid Installation</span></li>
+                <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg><span data-i18n="matrix_m5">Industrial &amp; Process Piping</span></li>
+                <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg><span data-i18n="matrix_m6">Repair and Modification</span></li>
+                <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg><span data-i18n="matrix_m7">On-Site Welding &amp; Mounting</span></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== 03. TECHNICAL & OPERATIONAL CAPABILITIES ===== -->
+    <section id="capacidades" class="section bg-light">
+      <div class="container">
+        <div class="layout-split">
+          <div class="split-content">
+            <h2 data-i18n="sec3_title">TECHNICAL, METALLURGICAL &amp; OPERATIONAL CAPABILITIES</h2>
+            <ul class="bullet-list">
+              <li><strong data-i18n="cap1_label">Aerospace-Grade Experience on the Space Coast:</strong> <span data-i18n="cap1_text">The founder brings active, real-world experience executing specialized welding and mounting in support of premier aerospace contractors on Florida's Space Coast (NASA / SpaceX ecosystem).</span></li>
+              <li><strong data-i18n="cap2_label">Multi-Process Mastery (GTAW / SMAW / GMAW):</strong> <span data-i18n="cap2_text">Precision TIG (GTAW) for sanitary and cryogenic stainless steel, Stick (SMAW) for structural and heavy schedule carbon pipe, and MIG/Flux-Cored for high-strength steel fabrication.</span></li>
+              <li><strong data-i18n="cap3_label">Turnkey Industrial Mounting &amp; Rigging:</strong> <span data-i18n="cap3_text">Complete installation of process skids, heavy industrial machinery, structural steel columns, baseplates, and engineered pipe support systems.</span></li>
+              <li><strong data-i18n="cap4_label">Dedicated Service for Private &amp; Small Clients:</strong> <span data-i18n="cap4_text">No project is too small — we treat residential repairs, custom gates, trailers, and local business requests with the same professionalism and punctuality as major industrial contracts.</span></li>
+              <li><strong data-i18n="cap5_label">100% Bilingual Communication (English &amp; Español):</strong> <span data-i18n="cap5_text">Clear, direct technical and commercial consultations in Spanish and English so Spanish-speaking homeowners and business owners in Florida feel completely understood and supported.</span></li>
+              <li><strong data-i18n="cap6_label">Custom Welding Classes &amp; Hands-On Training:</strong> <span data-i18n="cap6_text">Private and small-group practical training in Stick, TIG, and MIG welding in Rockledge, FL — ideal for aspiring welders, hobbyists, and technicians seeking aerospace/industrial technique.</span></li>
+            </ul>
+            <a href="#estandares" class="btn-cap-standards">
+              <span data-i18n="cap_to_standards">View Welding Codes &amp; Quality Standards</span>
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="6 9 12 15 18 9"></polyline></svg>
+            </a>
+          </div>
+          <div class="split-image">
+            <img src="assets/images/nosotros/capabilities-weld.jpg" alt="Space Coast Welding & Mounting Technical Inspection" class="img-responsive shadow" width="600" height="450" />
+            <div class="split-image-caption">
+              <span data-i18n="cap_caption_left">Rockledge, FL — Brevard County (Space Coast)</span>
+              <strong data-i18n="cap_caption_right">Stick · TIG · MIG · Industrial Assembly</strong>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== 04. QUALITY & WELDING ENGINEERING STANDARDS ===== -->
+    <section class="section bg-dark text-white text-center" id="estandares">
+      <div class="container">
+        <h2 data-i18n="sec4_title">WELDING CODES, QUALITY ASSURANCE &amp; SAFETY STANDARDS</h2>
+        <p class="section-lead mx-auto text-white" data-i18n="sec4_lead">Metallurgical Integrity · Structural Precision · Aerospace-Grade Execution</p>
+        <div class="grid-4 mt-4">
+          <div class="standard-box">
+            <h4 data-i18n="std1_title">AWS D1.1 &amp; D1.6 (Structural Steel &amp; Stainless)</h4>
+            <p data-i18n="std1_text">Execution of structural carbon and stainless steel welds, columns, baseplates, and load-bearing frameworks in strict alignment with American Welding Society structural codes.</p>
+          </div>
+          <div class="standard-box">
+            <h4 data-i18n="std2_title">ASME Sec IX &amp; B31.3 (Process Piping)</h4>
+            <p data-i18n="std2_text">High-integrity pipe welding and pressure manifold fabrication following ASME B31.1 / B31.3 criteria for industrial process piping, skids, and high-purity fluid lines.</p>
+          </div>
+          <div class="standard-box">
+            <h4 data-i18n="std3_title">AWS D17.1 &amp; NASA-STD-5006 Mindset</h4>
+            <p data-i18n="std3_text">Precision fusion welding discipline, cleanliness, purge control, and visual/dimensional accuracy cultivated through hands-on work in Florida's Space Coast aerospace sector.</p>
+          </div>
+          <div class="standard-box">
+            <h4 data-i18n="std4_title">OSHA 1910 / 1926 &amp; Safe Mounting</h4>
+            <p data-i18n="std4_text">Strict adherence to job-site safety, structural bolting torque, skid leveling, pipe support load distribution, and hot-work safety on residential, commercial, and industrial sites.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== 05. DYNAMIC STANDARDS CAROUSEL (MARQUEE) ===== -->
+    <section class="brand-carousel-section" id="normativa">
+      <div class="container text-center">
+        <h3 class="brand-carousel-title" data-i18n="reg_title">TECHNICAL CODES &amp; INDUSTRY BENCHMARKS</h3>
+        <p class="brand-carousel-sub" data-i18n="reg_sub">Our welding procedures, metallurgical preparation, and structural mounting practices are guided by the highest national and aerospace engineering benchmarks.</p>
+
+        <div class="marquee-track-wrap">
+          <div class="marquee-track">
+            <div class="marquee-item"><img src="assets/images/logos/std-aws.svg?v=4" alt="AWS D1.1 / D17.1 Structural and Aerospace Welding" /></div>
+            <div class="marquee-item"><img src="assets/images/logos/std-asme.svg?v=4" alt="ASME Sec IX and B31.3 Process Piping" /></div>
+            <div class="marquee-item"><img src="assets/images/logos/std-nasa.svg?v=4" alt="NASA-STD-5006 Aerospace Fusion Welding Reference" /></div>
+            <div class="marquee-item"><img src="assets/images/logos/std-api.svg?v=4" alt="API 1104 Pipeline and Facility Welding" /></div>
+            <div class="marquee-item"><img src="assets/images/logos/std-aisc.svg?v=4" alt="AISC and AWS D1.6 Stainless Steel Erection" /></div>
+            <div class="marquee-item"><img src="assets/images/logos/std-iso.svg?v=4" alt="ISO 3834 Quality in Fusion Welding" /></div>
+            <div class="marquee-item"><img src="assets/images/logos/std-osha.svg?v=4" alt="OSHA 1910 / 1926 Industrial Mounting Safety" /></div>
+            <!-- Duplicated for seamless infinite marquee loop -->
+            <div class="marquee-item"><img src="assets/images/logos/std-aws.svg?v=4" alt="AWS D1.1 / D17.1 Structural and Aerospace Welding" /></div>
+            <div class="marquee-item"><img src="assets/images/logos/std-asme.svg?v=4" alt="ASME Sec IX and B31.3 Process Piping" /></div>
+            <div class="marquee-item"><img src="assets/images/logos/std-nasa.svg?v=4" alt="NASA-STD-5006 Aerospace Fusion Welding Reference" /></div>
+            <div class="marquee-item"><img src="assets/images/logos/std-api.svg?v=4" alt="API 1104 Pipeline and Facility Welding" /></div>
+            <div class="marquee-item"><img src="assets/images/logos/std-aisc.svg?v=4" alt="AISC and AWS D1.6 Stainless Steel Erection" /></div>
+            <div class="marquee-item"><img src="assets/images/logos/std-iso.svg?v=4" alt="ISO 3834 Quality in Fusion Welding" /></div>
+            <div class="marquee-item"><img src="assets/images/logos/std-osha.svg?v=4" alt="OSHA 1910 / 1926 Industrial Mounting Safety" /></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== 06. CONTACT & BILINGUAL ESTIMATE FORM ===== -->
+    <section id="contacto" class="section contact-section">
+      <div class="container">
+        <div class="contact-layout">
+
+          <!-- Left: Contact Info & Bilingual Highlight -->
+          <div class="contact-info">
+            <h2 data-i18n="contact_title">REQUEST A QUOTE / CONTÁCTENOS</h2>
+            <p class="section-lead" data-i18n="contact_lead">Looking for a reliable welder or industrial mounting specialist in Rockledge, Brevard County, or anywhere in Florida? Contact us in English or Spanish for a fast, transparent estimate.</p>
+
+            <div class="bilingual-highlight-card">
+              <strong data-i18n="bilingual_box_title">ENGLISH &amp; ESPAÑOL — HABLAMOS TU IDIOMA</strong>
+              <p data-i18n="bilingual_box_text">Need to explain your project in Spanish? Speak directly with the owner in Spanish or English. We proudly serve private homeowners, local businesses, and industrial/aerospace contractors.</p>
+            </div>
+
+            <div class="contact-details">
+              <div class="contact-detail-item">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg>
+                <span>
+                  <span style="font-size:11px;text-transform:uppercase;letter-spacing:1px;opacity:0.65;display:block;margin-bottom:2px;" data-i18n="contact_hq_label">Headquarters &amp; Workshop</span>
+                  <strong data-i18n="contact_hq_val">Rockledge, FL — Brevard County (Space Coast), USA</strong>
+                </span>
+              </div>
+
+              <div class="contact-detail-item">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"></circle><line x1="2" y1="12" x2="22" y2="12"></line><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"></path></svg>
+                <span>
+                  <span style="font-size:11px;text-transform:uppercase;letter-spacing:1px;opacity:0.65;display:block;margin-bottom:2px;" data-i18n="contact_coverage_label">Florida Service Coverage</span>
+                  <span data-i18n="contact_coverage_val">Rockledge · Melbourne · Cape Canaveral · Merritt Island · Cocoa · Titusville · Orlando &amp; Central FL</span>
+                </span>
+              </div>
+
+              <div class="contact-detail-item">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"></polygon></svg>
+                <span>
+                  <span style="font-size:11px;text-transform:uppercase;letter-spacing:1px;opacity:0.65;display:block;margin-bottom:2px;" data-i18n="contact_services_label">Core Specialties</span>
+                  <span data-i18n="contact_services_val">Pipe Welding (TIG/Stick/MIG) · Structural Steel · Industrial Mounting &amp; Skids · Custom Classes</span>
+                </span>
+              </div>
+
+              <div class="contact-detail-item">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"></path></svg>
+                <span>
+                  <span style="font-size:11px;text-transform:uppercase;letter-spacing:1px;opacity:0.65;display:block;margin-bottom:2px;">Official Facebook Page</span>
+                  <a href="https://www.facebook.com/61594878797006" target="_blank" rel="noopener" style="font-weight:700;color:var(--secondary-blue);text-decoration:underline;">Space Coast Welding &amp; Mounting | Rockledge FL</a>
+                </span>
+              </div>
+            </div>
+
+            <div class="icao-badge">
+              <span data-i18n="badge_title">SPACE COAST WELDING &amp; MOUNTING LLC</span>
+              <span data-i18n="badge_sub">INDUSTRIAL · COMMERCIAL · RESIDENTIAL · AEROSPACE SUPPORT</span>
+            </div>
+          </div>
+
+          <!-- Right: Bilingual Estimate Form -->
+          <div class="contact-form-wrap">
+            <form id="contactForm" novalidate>
+              <input type="hidden" name="_language" id="form-lang" value="en" />
+
+              <div class="form-row">
+                <div class="form-group">
+                  <label for="form-name" data-i18n="form_name">Full Name</label>
+                  <input type="text" id="form-name" name="name" required data-i18n-placeholder="form_name" placeholder="Full Name" />
+                </div>
+                <div class="form-group">
+                  <label for="form-org" data-i18n="form_org">Company / Organization (or 'Private Client')</label>
+                  <input type="text" id="form-org" name="organization" required data-i18n-placeholder="form_org" placeholder="Company / Private Client" />
+                </div>
+              </div>
+
+              <div class="form-row">
+                <div class="form-group">
+                  <label for="form-phone" data-i18n="form_phone">Phone / WhatsApp Number</label>
+                  <input type="tel" id="form-phone" name="phone" required data-i18n-placeholder="form_phone" placeholder="(321) 000-0000" />
+                </div>
+                <div class="form-group">
+                  <label for="form-email" data-i18n="form_email">Email Address</label>
+                  <input type="email" id="form-email" name="email" required data-i18n-placeholder="form_email" placeholder="email@domain.com" />
+                </div>
+              </div>
+
+              <div class="form-row">
+                <div class="form-group">
+                  <label for="form-city" data-i18n="form_city">City in Florida</label>
+                  <input type="text" id="form-city" name="city" required data-i18n-placeholder="form_city" placeholder="Rockledge, Melbourne, Cape Canaveral..." />
+                </div>
+                <div class="form-group">
+                  <label for="form-subject" data-i18n="form_subject">Service Needed</label>
+                  <select id="form-subject" name="subject" required>
+                    <option value="">Select a service...</option>
+                    <option>Pipe Welding (Stainless / Carbon Steel - TIG, Stick, MIG)</option>
+                    <option>Structural Welding &amp; Steel Fabrication</option>
+                    <option>Industrial Mounting, Skids &amp; Pipe Supports</option>
+                    <option>Aerospace / High-Spec Contractor Support</option>
+                    <option>Equipment Repair &amp; On-Site Mobile Welding</option>
+                    <option>Private / Residential Custom Welding Project</option>
+                    <option>Custom Welding Classes (Stick, TIG, MIG)</option>
+                    <option>Other Inquiry</option>
+                  </select>
+                </div>
+              </div>
+
+              <div class="form-group">
+                <label for="form-message" data-i18n="form_message">Project Details (material, dimensions, location, or preferred language EN/ES)</label>
+                <textarea id="form-message" name="message" rows="5" required data-i18n-placeholder="form_message" placeholder="Describe your welding or mounting project in English or Spanish..."></textarea>
+              </div>
+
+              <button type="submit" class="btn btn-primary btn-full" data-i18n="form_submit">Send Quote Request</button>
+
+              <div id="form-success" class="form-feedback form-feedback-success" style="display:none;" data-i18n="form_success">
+                Thank you! Your request has been prepared. We will contact you shortly in your preferred language.
+              </div>
+            </form>
+          </div>
+
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="footer">
+    <div class="container footer-content">
+      <div class="footer-brand">
+        <div class="footer-logo-lockup">
+          <img src="assets/images/logos/logo-emblem-white.png?v=4" alt="Space Coast Welding & Mounting LLC" class="logo-icon-white" />
+          <img src="assets/images/logos/brand-wordmark-light.svg?v=4" alt="Space Coast Welding & Mounting LLC" style="height: 48px; width: auto;" />
+        </div>
+        <p class="footer-tagline" data-i18n="footer_tagline">PRECISION WELDING, STRUCTURAL STEEL &amp; INDUSTRIAL MOUNTING — ROCKLEDGE, FL.</p>
+      </div>
+
+      <div class="footer-info">
+        <div class="footer-col">
+          <h4 class="footer-col-title" data-i18n="footer_company">Company</h4>
+          <ul class="footer-list">
+            <li>
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13S3 17 3 10a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+              <span>Rockledge, FL — Brevard County, USA</span>
+            </li>
+            <li>
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><line x1="2" y1="12" x2="22" y2="12"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg>
+              <span>English &amp; Español (Hablamos Español)</span>
+            </li>
+            <li>
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></svg>
+              <a href="https://www.facebook.com/61594878797006" target="_blank" rel="noopener">Facebook: Space Coast Welding &amp; Mounting</a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h4 class="footer-col-title" data-i18n="footer_coverage">Space Coast &amp; Florida</h4>
+          <ul class="footer-list">
+            <li>
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="9 18 15 12 9 6"/></svg>
+              <span>Rockledge &amp; Cape Canaveral, FL</span>
+            </li>
+            <li>
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="9 18 15 12 9 6"/></svg>
+              <span>Melbourne, Merritt Island &amp; Titusville</span>
+            </li>
+            <li>
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="9 18 15 12 9 6"/></svg>
+              <span>Cocoa, Orlando &amp; Central Florida</span>
+            </li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h4 class="footer-col-title" data-i18n="footer_services_title">Welding &amp; Mounting</h4>
+          <ul class="footer-list">
+            <li><a href="#servicios" data-open-tab="tab-pipe" data-i18n="nav_sub_pipe">Pipe Welding (TIG / Stick / MIG)</a></li>
+            <li><a href="#servicios" data-open-tab="tab-struct" data-i18n="nav_sub_structural">Structural Welding &amp; Steel Fabrication</a></li>
+            <li><a href="#servicios" data-open-tab="tab-mount" data-i18n="nav_sub_mounting">Industrial Mounting &amp; Skid Installation</a></li>
+            <li><a href="#servicios" data-open-tab="tab-custom" data-i18n="nav_sub_custom">Custom Projects, Repairs &amp; Mobile Welding</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h4 class="footer-col-title" data-i18n="footer_standards">Capabilities &amp; Standards</h4>
+          <ul class="footer-list">
+            <li>
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>
+              <span>AWS D1.1 / D1.6 / D17.1 &amp; ASME B31.3</span>
+            </li>
+            <li>
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>
+              <span>Stainless Steel · Carbon Steel · Aluminum</span>
+            </li>
+            <li>
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>
+              <span>Custom Welding Classes (Stick, TIG, MIG)</span>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <span data-i18n="footer_rights">© 2026 Space Coast Welding &amp; Mounting LLC. Rockledge, FL — USA. All rights reserved. | English &amp; Español</span>
+      </div>
+    </div>
+  </footer>
+
+  <script src="assets/js/i18n.js?v=4"></script>
+  <script src="assets/js/main.js?v=4"></script>
+</body>
+</html>

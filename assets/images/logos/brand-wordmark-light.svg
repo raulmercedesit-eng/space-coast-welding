@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 430 68" fill="none">
+  <!-- Main Brand Title: SPACE COAST (Pure White for Footer like gideallc.com) -->
+  <text x="2" y="34" font-family="'Roboto', 'Segoe UI', Arial, sans-serif" font-weight="900" font-size="31" letter-spacing="1.8" fill="#FFFFFF">SPACE COAST</text>
+  <!-- Clean White/Silver Divider Line -->
+  <rect x="2" y="42" width="48" height="3" rx="1.5" fill="#FFFFFF"/>
+  <rect x="55" y="42" width="370" height="1.5" fill="rgba(255,255,255,0.35)"/>
+  <!-- Subtitle: WELDING & MOUNTING LLC -->
+  <text x="2" y="61" font-family="'Roboto', 'Segoe UI', Arial, sans-serif" font-weight="700" font-size="13.5" letter-spacing="3.2" fill="#E2E8F0">WELDING &amp; MOUNTING LLC</text>
+</svg>
